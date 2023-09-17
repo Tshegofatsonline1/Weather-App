@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<div class="weather">
+   <form id="search-form">
+    <input type="text"
+    placeholder="Enter your city" 
+   autocomplete="off" autofocus="on"
+    id="search-text-input"/>
+    <input type="submit"  value="search" id="now"/>
+    <button class="button" id="currentLocationButton">
+        Current
+    </button>
+   </form>
+
+    <div class="weather_today">
+        <div class="weather_details">
+            <p class="currentTime"> Mon 16:00</p>
+            <div class="weather_current">
+                <h2 class="city">Rustenburg</h2>
+                <P class="temperature">20℃</P>
+                <p class="description">Partly cloudy</p>
+                 <P class="humidity">50</P>
+                 <P class="wind">10</P>
+                </div>
+                
+            </div>
+
+
+    <div class="weather_forecast">
+        <article class="weather_forecast_item">
+            <h3 class="weather__forecast_day">Monday</h3>
+            <img src="img/cloudy.png" alt="Cloudy" class="weather_forecast_icon" width="100px" height="50px">
+            <p class="weather__forecast_temperature"><span class="value">+25</span>&deg;C </p>
+        </article>
+        <article class="weather_forecast_item">
+            <h3 class="weather__forecast_day">Tuesday</h3>
+            <img src="img/rain.png" alt="Rain" class="weather_forecast_icon" width="100px" height="50px">
+            <p class="weather__forecast_temperature"><span class="value">+25</span>&deg;C </p>
+        </article>
+        <article class="weather_forecast_item">
+            <h3 class="weather__forecast_day">Wednesday</h3>
+            <img src="img/thunderstorm.png" alt="thunderstorm" class="weather_forecast_icon" width="100px" height="50px">
+            <p class="weather__forecast_temperature"><span class="value">+25</span>&deg;C </p>
+        </article>
+        <article class="weather_forecast_item">
+            <h3 class="weather__forecast_day">Thursday</h3>
+            <img src="img/sun.png" alt="Sun" class="weather_forecast_icon" width="100px" height="50px">
+            <p class="weather__forecast_temperature"><span class="value">+25</span>&deg;C </p>
+        </article>
+        <article class="weather_forecast_item">
+            <h3 class="weather__forecast_day">Friday</h3>
+            <img src="img/snow.png" alt="Snow" class="weather_forecast_icon" width="100px" height="50px">
+            <p class="weather__forecast_temperature"><span class="value">+25</span>&deg;C </p>
+        </article>
+
+        <P class="Author">Coded By Tshegofatso Magome</P>
+    </div>
+
+    
+            
+            
+<script src="src/index.js"></script>
+</body>
+</html>

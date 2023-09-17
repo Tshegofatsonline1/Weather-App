@@ -1,0 +1,51 @@
+.weather {
+    border-style: outset;
+    padding: 50px;
+    display: block;
+    margin: 100px;
+    margin-right: 50px;
+    
+  }
+  .weather_forecast {
+    display: inline
+ 
+  }
+ 
+  .weather_forecast_item {
+ 
+    display: inline-table;
+    text-align: center;
+    width: 10px;
+    border-style: outset;
+    border-radius: 20px;
+    width: 10px;
+    justify-content: 20px;
+    
+    
+  }
+ 
+  .current {
+ 
+   display: block;
+   float: right;
+  }
+ 
+  .submit_button {
+   color: white;
+   background-color: blue;
+  }
+ 
+  .now {
+   background-color: green;
+   color: white;
+  }
+ 
+  button {
+   color: white;
+   background-color: green;
+  }
+ 
+  .Author {
+ 
+   text-align: center;
+  }
